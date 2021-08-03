@@ -158,6 +158,28 @@
 
 }
 */
+.digits__section-title {
+  width: 60%;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.digits__section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
 /*"feynman technique" block*/
 .feynman {
   background-color: #F2F2F2;
@@ -255,24 +277,29 @@
   background-color: black;
   color: white;
   display: flex;
+  /*flex-basis: 711px; included in brief, not sure what it does*/
   justify-content: space-between;
+  padding-top: 60px;
+  /*width: 90%;*/
 }
 
 /* Practicum footer logo, appearing at top of screen for some reason? */
 .logo_place_footer {
-  width: 154px;
-  height: 31px;
-  position: absolute;
+  height: 35px;
+  width: 183px;
+  display: flex;
   top: 30px;
   left: 64px;
+  z-index: 1;
 }
 
-/*need to add fonts and sizing
 .footer__author {
-
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
-*/
+
 
 .footer_social-icons {
   color: white;
+  text-decoration: none;
 }

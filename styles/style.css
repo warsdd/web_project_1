@@ -9,17 +9,82 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*still need to make page content adjust for different screen sizes*/
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #F2F2F2;
+  /*need to make background colour stretch to fit screens*/
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   /* parameters for the header section */
+}
+/*
+.logo {
+
+}
+*/
+/*Practicum header logo*/
+.logo_place_header {
+  position: absolute;
+  justify-content: center;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  width: 730px;
+  position: absolute;
+  text-align: left;
+  left: 64px;
+}
+
+.header__subtitle {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 388px;
+  position: absolute;
+  margin: auto;
+  bottom: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+/*this bit needs adjusted so link turns purple after click*/
+.header__link{
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  margin: auto;
+  width: 756px;
+  height: 608px;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+  background-color: #2F80ED;
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 0;
 }
 
 /* including elements with key-value modifiers */
@@ -28,4 +93,186 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/*content block includes full main page, excluding header and footer
+.content {
+
+}
+*/
+/*"the main problem with education" block*/
+.description {
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+/*start of description block */
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  color: #2F80ED;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+}
+
+/* this encompasses all text EXCEPT brief text "the main problem with education" */
+.two-columns__main-text {
+  width: 80%;
+  /*min-width: 784px;?? says tp do this in brief, haven't figured it out yet*/
+  flex-direction: column;
+}
+
+.two-columns__paragraph-one {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph-two {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph-three {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+
+/*"facts and figures" block
+.digits {
+
+}
+*/
+/*"feynman technique" block*/
+.feynman {
+  background-color: #F2F2F2;
+  height: 790px;
+}
+
+.feynman__title {
+  width: 775px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 70px;
+  z-index: 1;
+}
+
+/* feynman image */
+.feynman__main-illustration {
+  background-repeat: no-repeat;
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  padding-top: 152px; /*this bit is clumsy even though it works, need to fix image to bottom of section rather than pushing it down from the top*/
+  z-index: 0;
+}
+
+/* "more" link at right of screen*/
+.feynman__link{
+  color: #2F80ED;
+  height: 395px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  right: 200px;/*should be 48px from the right, but the right margin doesn't seem to be defined properly*/
+  text-decoration: none;
+}
+
+/*"ten principles of rapid skill acquisition" block*/
+.kaufman {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.kaufman__section-title {
+  width: 60%;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 90px;
+}
+
+.kaufman_section-subtitle {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.kaufman__table {
+  padding-top: 80px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  height: 660px;
+  width: 636px;
+  /*position: absolute; */
+  z-index: 0;
+}
+
+/* here is the footer block, which includes links and logos */
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Practicum footer logo, appearing at top of screen for some reason? */
+.logo_place_footer {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+/*need to add fonts and sizing
+.footer__author {
+
+}
+*/
+
+.footer_social-icons {
+  color: white;
 }

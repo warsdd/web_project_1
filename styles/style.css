@@ -112,6 +112,7 @@
 /*start of description block */
 .two-columns {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -123,11 +124,12 @@
   width: 175px;
 }
 
-/* this encompasses all text EXCEPT brief text "the main problem with education" */
+/* this encompasses all text EXCEPT brief text "the main problem with education"*/
 .two-columns__main-text {
   width: 80%;
-  /*min-width: 784px;?? says tp do this in brief, haven't figured it out yet*/
-  flex-direction: column;
+  min-width: 784px;
+  margin: auto;
+  /*still need to get into two columns at the same height*/
 }
 
 .two-columns__paragraph-one {
@@ -178,8 +180,40 @@
   text-align: center;
   position: relative;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
+.digits__table {
+  width: 1100px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*first row*/
+.digits__table-cell-1{
+  display: flex;
+  /*flex-direction: row;*/
+  margin: auto;
+}
+
+/*second row*/
+.digits__table-cell-2{
+  display: flex;
+  /*flex-direction: row;*/
+}
+
+/*heading of each statistic*/
+.digits__table-heading {
+  padding-bottom: 20px;
+
+}
+
+/*text of each statistic
+.digits__table-text {
+
+}
+*/
 /*"feynman technique" block*/
 .feynman {
   background-color: #F2F2F2;
@@ -265,10 +299,14 @@
   z-index: 1;
 }
 
+/*having issues here with the overflow and positioning, can't figure out*/
 .kaufman__triangle {
   height: 660px;
   width: 636px;
-  /*position: absolute; */
+  margin: auto;
+  display: flex;
+  position: absolute;
+  right: -124px;
   z-index: 0;
 }
 
@@ -287,7 +325,6 @@
 .logo_place_footer {
   height: 35px;
   width: 183px;
-  display: flex;
   top: 30px;
   left: 64px;
   z-index: 1;

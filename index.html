@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
   <title>Learning How to Learn</title>
 </head>
 
+<page>
 <body>
   <div class="page">
     <header class="header">
@@ -15,119 +17,142 @@
       <div class="header__flex-column">-->
       <img class="logo logo_place_header" src="/images/logo_place_header.png" alt="Practicum header logo">
       <h1 class="header__title">Learning How to Learn</h1>
-      <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life.
-      <a href="#" class="header__link">Learn more &#8594</a>
+      <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily
+        life.
+        <a href="#" class="header__link">Learn more &#8594</a>
       </p>
       <img class="header__main-illustration" src="/images/header-image.png"
         alt="Woman stands on mountain top looking into the distance">
       <!--unsure if i need an alt class for below pic, as just colour background, not actual image, also might change div to something else-->
       <div class="header__square-pic">
-      </p>
-  </div>
-  </header>
-
-  <main class="content">
-    <section class="description">
-      <div class="two-columns">
-      <h2 class="two-columns__brief">The main problem with education</h2>
-      <p class="two-columns__main-text">
-      <p class="two-columns__paragraph-one">Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing informationso that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be
-      retained. In the end, we're really just learning how to pass our tests.</p>
-      <p class="two-columns__paragraph-two"><span class="two-columns__span-accent">Here's the real question: </span>does
-        this approach of repetition and memorization help us truly
-        understand the subject material? The academic consensus nowadays is that it doesn't. In fact,
-        what's more important than any individual topic is knowing how to study, but for some reason,
-        this point is often overlooked. So, what can we do to remedy this?</p>
-      <p class="two-columns__paragraph-three">Well, there are various techniques and exercises that can be applied to the
-        educational process
-        to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of
-        effective learning.</p>
-      </p>
+        </p>
       </div>
-    </section>
+    </header>
 
-    <section class="digits">
-      <h2 class="digits__section-title">Facts and Figures</h2>
-      <h3 class="digits__section-subtitle">On learning and the brain</h3>
-      <table class="digits__table">
-        <!--need to change to <ul> and <li>, not supposed to use this format-->
-        <th>86 billion</th>
-        <td>The number of neurons in the human brain</td>
-        <th>73%</th>
-        <td>The percentage of adults in the US who consider themselves lifelong learners
-          Pew Research Center</td>
-        <th>1,000 terabytes</th>
-        <td>The information storage capacity of a human</td>
-        <th>500 trillion </th>
-        <td>The number of nerve synapses responsible for learning in the average adult human</td>
-        <th>420 million</th>
-        <td>The number of adults under 25 with insufficient education for finding employment
-          World Bank, 2017</td>
-        <th>26 years old </th>
-        <td>The age at which Albert Einstein published his groundbreaking paper on special relativity</td>
-        <th>1885</th>
-        <td>Development of the forgetting curve</td>
-        <th>1897</th>
-        <td>Publication of Ivan Pavlov's research on classical conditioning</td>
-      </table>
-    </section>
+    <main class="content">
+      <section class="description">
+        <div class="two-columns">
+          <!--can't figure out how to make this into two separate columns-->
+          <h2 class="two-columns__brief">The main problem with education</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph-one">Whether it's at school or university, the one thing no one ever
+              teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly
+              memorizing information so that when exam time comes around, we pass the test. But once the test is over,
+              that information has outlived its usefulness, and there's no guarantee that information will be
+              retained. In the end, we're really just learning how to pass our tests.</p>
+            <p class="two-columns__paragraph-two"><span class="two-columns__span-accent">Here's the real question:
+              </span>does
+              this approach of repetition and memorization help us truly understand the subject material? The academic
+              consensus nowadays is that it doesn't. In fact,
+              what's more important than any individual topic is knowing how to study, but for some reason,
+              this point is often overlooked. So, what can we do to remedy this?</p>
+            <p class="two-columns__paragraph-three">Well, there are various techniques and exercises that can be applied
+              to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of
+              the secrets of effective learning.</p>
+          </div>
+        </div>
+      </section>
 
-    <section class="feynman">
-      <img class="feynman__main-illustration" src="/images/feynman.png" alt="A picture of Richard Feynman, a world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a student at Princeton.">
-      <h1 class="feynman__title">The Feynman Technique</h1>
-      <a href="#" class="feynman__link">More &#8594</a>
-      <h3 class="feynman__subtitle">Learn without forgetting</h3>
+      <section class="digits">
+        <h1 class="digits__section-title">Facts and figures</h1>
+        <h2 class="digits__section-subtitle">On learning and the brain</h2>
+        <ol class="digits__table">
+          <!--brief specifies using flexbox as a table-->
+          <li class="digits__table-cell-1">
+            <h3 class="digits__table-heading">86 billion</h3>
+            <p class="digits__table-text">The number of neurons in the human brain</p>
 
-    </section>
+            <h3 class="digits__table-heading">73%</h3>
+            <p class="digits__table-text">The percentage of adults in the US who consider themselves lifelong learners
+              Pew Research Center</p>
 
-    <section class="kaufman">
-      <h2 class="kaufman__section-title">Ten principles of rapid skill acquisition</h2>
-      <h3 class="kaufman_section-subtitle">by Josh Kaufman</h3>
-      <table class="kaufman__table">
-        <!--this table needs to be changed to the <ul> and <li> type as shown in the brief, additional modifiers needed-->
-        <th>1</th>
-        <td>Choose a lovable project</td>
-        <th>2</th>
-        <td>Focus your energy on one skill at a time</td>
-        <th>3</th>
-        <td>Define your target performance level</td>
-        <th>4</th>
-        <td>Deconstruct the skill into sub-skills</td>
-        <th>5</th>
-        <td>Obtain critical tools</td>
-        <th>6</th>
-        <td>Eliminate barriers to practice</td>
-        <th>7</th>
-        <td>Make dedicated time for practice</td>
-        <th>8</th>
-        <td>Create fast feedback loops</td>
-        <th>9</th>
-        <td>Practice by the clock in short bursts</td>
-        <th>10</th>
-        <td>Emphasize quantity and speed</td>
-      </table>
-      <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="Blue asymmetric triangle">
-    </section>
-  </main>
+            <h3 class="digits__table-heading">1,000 terabytes</h3>
+            <p class="digits__table-text">The information storage capacity of a human</p>
 
-  <footer class="footer">
-    <div class="footer__columns">
-    <div class="footer__column_content_copyright"></div>
-    <div class="footer__column_content_about"></div>
-    <div class="footer__column_content_social">
-      <a href="#" class="footer_social-icons">Facebook, Instagram</a>
-    </div>
-    <!--Practicum logo, needs to be aligned with top one-->
-    <img class="logo logo_place_footer" src="/images/logo_place_footer.png" alt="Practicum footer logo">
-    <p class="footer__author">&copy 2021 Sara Ward</p>
-    <div class="footer__column-heading">Social Media</div>
-    <!--probably need to change div to something else-->
-    <div class="footer__list">About Practicum by Yandex,Home Page, Mission, Professions</div>
-    <!--this element needs put into a list-->
-    <div class="footer_column-link"></div>
-  </div>
-  </footer>
+            <h3 class="digits__table-heading">500 trillion</h3>
+            <p class="digits__table-text">The number of nerve synapses responsible for learning in the average adult
+              human
+            </p>
+
+            <!--first level of table above, second level below-->
+          <li class="digits__table-cell-2">
+            <h3 class="digits__table-heading">420 million</h3>
+            <p class="digits__table-text">The number of adults under 25 with insufficient education for finding
+              employment
+              World Bank, 2017</p>
+
+            <h3 class="digits__table-heading">26 years old</h3>
+            <p class="digits__table-text">The age at which Albert Einstein published his groundbreaking paper on
+              special
+              relativity</p>
+
+            <h3 class="digits__table-heading">1885</h3>
+            <p class="digits__table-text">Development of the forgetting curve</p>
+
+            <h3 class="digits__table-heading">1897</h3>
+            <p class="digits__table-text">Publication of Ivan Pavlov's research on classical conditioning</p>
+          </li>
+
+        </ol>
+      </section>
+
+      <section class="feynman">
+        <img class="feynman__main-illustration" src="/images/feynman.png"
+          alt="A picture of Richard Feynman, a world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a student at Princeton.">
+        <h1 class="feynman__title">The Feynman Technique</h1>
+        <a href="#" class="feynman__link">More &#8594</a>
+        <h3 class="feynman__subtitle">Learn without forgetting</h3>
+
+      </section>
+
+      <section class="kaufman">
+        <h2 class="kaufman__section-title">Ten principles of rapid skill acquisition</h2>
+        <h3 class="kaufman_section-subtitle">by Josh Kaufman</h3>
+        <table class="kaufman__table">
+          <!--this table needs to be changed to the <ul> and <li> type as shown in the brief, additional modifiers needed-->
+          <th>1</th>
+          <td>Choose a lovable project</td>
+          <th>2</th>
+          <td>Focus your energy on one skill at a time</td>
+          <th>3</th>
+          <td>Define your target performance level</td>
+          <th>4</th>
+          <td>Deconstruct the skill into sub-skills</td>
+          <th>5</th>
+          <td>Obtain critical tools</td>
+          <th>6</th>
+          <td>Eliminate barriers to practice</td>
+          <th>7</th>
+          <td>Make dedicated time for practice</td>
+          <th>8</th>
+          <td>Create fast feedback loops</td>
+          <th>9</th>
+          <td>Practice by the clock in short bursts</td>
+          <th>10</th>
+          <td>Emphasize quantity and speed</td>
+        </table>
+        <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="Blue asymmetric triangle">
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright"></div>
+        <div class="footer__column_content_about"></div>
+        <div class="footer__column_content_social">
+          <a href="#" class="footer_social-icons">Facebook, Instagram</a>
+        </div>
+        <!--Practicum logo, needs to be aligned with top one-->
+        <img class="logo logo_place_footer" src="/images/logo_place_footer.png" alt="Practicum footer logo">
+        <p class="footer__author">&copy 2021 Sara Ward</p>
+        <div class="footer__column-heading">Social Media</div>
+        <!--probably need to change div to something else-->
+        <div class="footer__list">About Practicum by Yandex,Home Page, Mission, Professions</div>
+        <!--this element needs put into a list-->
+        <div class="footer_column-link"></div>
+      </div>
+    </footer>
   </div>
 </body>
-
+</page>
 </html>

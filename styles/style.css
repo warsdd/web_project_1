@@ -199,8 +199,7 @@
 
 /*"feynman technique" block*/
 .feynman {
-  background-image: url("../images/feynman.png")
-  ;
+  background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: bottom left;
   background-color: #F2F2F2;
@@ -246,8 +245,7 @@
 /*"ten principles of rapid skill acquisition" block*/
 .kaufman {
   background-color: black;
-  background-image: url("../images/kaufman-triangle.svg")
-  ;
+  background-image: url("../images/kaufman-triangle.svg");
   background-repeat: no-repeat;
   background-position: top right -124px;
   color: white;

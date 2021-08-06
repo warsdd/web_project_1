@@ -327,13 +327,14 @@
 
 /* here is the footer block, which includes links and logos */
 .footer {
+  display: flex;
   background-color: black;
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;
   min-height: 350px;
   box-sizing: border-box;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .footer_columns {
@@ -341,19 +342,27 @@
   margin: auto;
   display: flex;
   flex-basis: 711px;
-  /*flex-direction: column;*/
   justify-content: space-between;
 }
 
 .footer__column {
+  display: flex;
   min-height: 252px;
   margin-left: 5%;
-  margin-right: 5%; /*bit clumsy*/
+  flex-direction: column;
+  padding-right: 300px;
+}
+
+.footer__column_content_about:last-child{
+  padding-left: 100px;
+}
+
+.footer__column_content_social:last-child{
+  padding-right: 0px;
 }
 
 .footer__column_content_copyright {
   position: relative;
-  border: 1px solid red;
 }
 
 /* Practicum footer logo*/
@@ -361,7 +370,7 @@
   top: 30px;
   left: 64px;
   z-index: 1;
-  border: 1px solid red;
+  padding-left: 40px;
 }
 
 .footer__author {
@@ -369,14 +378,9 @@
   font-size: 18px;
   font-weight: normal;
   position: absolute;
+  padding-left: 40px;
   left: 0;
   bottom: 0;
-  border: 1px solid red;
-}
-
-.footer__column_content_about {
-  border: 1px solid red;
-
 }
 
 .footer__column-heading {
@@ -386,7 +390,7 @@
   width: 250px;
   font-size: 18px;
   font-weight: bold;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .footer__column_link {
@@ -401,7 +405,7 @@
 
 .footer__list {
   list-style: none;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: 0;
   width: 250px; /*don't know where i got this number*/
 }
@@ -413,7 +417,7 @@
 .footer__column_content_social {
   min-height: 50px;
   list-style: none;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .footer__social-icons {

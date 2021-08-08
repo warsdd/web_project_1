@@ -174,7 +174,6 @@
   list-style: none;
   padding: 5px;
   box-sizing: border-box;
-  list-style: none;
 }
 
 .table__heading {
@@ -256,7 +255,7 @@
 
 /*"ten principles of rapid skill acquisition" block*/
 .kaufman {
-  background-color: #1F1F1F ;
+  background-color: #1F1F1F;
   background-image: url("../images/kaufman-triangle.svg");
   background-repeat: no-repeat;
   background-position: top right -124px;
@@ -319,7 +318,7 @@
 /* here is the footer block, which includes links and logos */
 .footer {
   display: flex;
-  background-color: #1F1F1F ;
+  background-color: #1F1F1F;
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;

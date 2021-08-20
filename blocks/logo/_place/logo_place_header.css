@@ -1,0 +1,8 @@
+/*Practicum header logo*/
+.logo_place_header {
+  position: absolute;
+  justify-content: center;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}

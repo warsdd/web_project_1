@@ -1,0 +1,11 @@
+/* main picture */
+.header__main-illustration {
+  margin: auto;
+  width: 756px;
+  height: 608px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}

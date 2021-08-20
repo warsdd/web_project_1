@@ -1,0 +1,5 @@
+.footer__column {
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+}

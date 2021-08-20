@@ -1,0 +1,14 @@
+@import url(../kaufman/__triangle/kaufman__triangle.css);
+@import url(../kaufman/section-title_theme_dark/section-title_theme_dark.css);
+@import url(../kaufman/section-subtitle_theme_dark/section-subtitle_theme_dark.css);
+@import url(../kaufman/table_theme_dark/table_theme_dark.css);
+
+/*"ten principles of rapid skill acquisition" block*/
+.kaufman {
+  background-color: #1F1F1F;
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,11 @@
+@import url(./two-columns/two-columns.css);
+
+
+/*start of description block */
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

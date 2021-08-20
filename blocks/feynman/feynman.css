@@ -1,0 +1,15 @@
+@import url(./__title/feynman__title.css);
+@import url(./__subtitle/feynman__subtitle.css);
+@import url(./__link/feynman__link.css);
+
+
+/*"feynman technique" block*/
+.feynman {
+  background-image: url("/images/feynman.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-color: #F2F2F2;
+  min-height: 790px;
+  padding-top: 100px;
+  position: relative;
+}

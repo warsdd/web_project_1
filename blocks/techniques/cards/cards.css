@@ -4,5 +4,10 @@
 @import url(./__description/cards__description.css);
 
 .cards {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  text-align: center;
   border: solid red 1px;
 }

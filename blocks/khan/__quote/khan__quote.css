@@ -2,4 +2,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  width: 790px;
+  margin: 0;
+  padding-bottom: 36px;
+  border: solid red 1px;
 }

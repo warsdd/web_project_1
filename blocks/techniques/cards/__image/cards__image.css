@@ -3,6 +3,9 @@
   height: 160px;
   margin-top: 60px;
   margin-bottom: 43px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
   border: solid red 1px;
 }
 

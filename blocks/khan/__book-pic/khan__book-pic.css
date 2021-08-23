@@ -2,7 +2,9 @@
   width: 608px;
   height: 620px;
   margin-right: 48px;
+  margin-bottom: -20%;
+  overflow: hidden;
   border: solid red 1px;
 }
 
-/*need to figure out how to cut the bottom off, revisit lessons*/
+

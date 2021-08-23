@@ -1,5 +1,6 @@
 .video__iframe {
-
+  margin: 10px;
+  margin-top: 0;
+  margin-bottom: -60px;
+  border: none;
 }
-
-/*need space between elements*/

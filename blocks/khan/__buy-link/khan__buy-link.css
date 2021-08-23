@@ -4,12 +4,10 @@
   font-weight: normal;
   color: #2F80ED;
   text-decoration: none;
-  border: solid red 1px;
   z-index: 1;
-  position: absolute;
 }
 
 .khan__buy-link:hover {
   opacity: 50%;
-  transition: 0.3s;
+  transition: 0.3s linear;
 }

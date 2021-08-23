@@ -14,11 +14,19 @@ Website including examples of learning techniques by experts on learning and pro
 - HTML
 - CSS
 
+## Techniques
+- BEM file structure
+- Animations
+- Flexbox
+- Positioning
+- Embedding content
+
 
 ## Plans for Refining Project
-- Rework parameters for Khan book image
-- Wrap and accurately space layout of elements in Learning Techniques block according to brief
+- Ensure parameters for Khan book image are correct
+- Wrap and accurately space layout of elements in Learning Techniques block according to brief using flexbox
 - Double check all file names, file structure, and CSS code is in accordance with brief
+- Ensure no errors within code
 - Include external websites in links
 - Add icon for tab
 - Any additional link animations 

@@ -1,6 +1,9 @@
 .cards__item {
   margin: 0;
   padding: 0;
-  width: 100%;
-  border: solid red 1px;
+  flex-basis: 33.333333%;
+}
+
+.cards__item_content {
+  margin: 0 50px;
 }

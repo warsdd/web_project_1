@@ -1,9 +1,9 @@
+@import url(./content/cards__item_content.css);
+
 .cards__item {
   margin: 0;
   padding: 0;
   flex-basis: 33.333333%;
 }
 
-.cards__item_content {
-  margin: 0 50px;
-}
+

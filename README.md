@@ -18,7 +18,7 @@ Website including examples of learning techniques by experts on learning and pro
 ## Plans for Refining Project
 - Rework parameters for Khan book image
 - Wrap and accurately space layout of elements in Learning Techniques block according to brief
-- Double check all file names, file structure, and CSS code is in acccordance with brief
+- Double check all file names, file structure, and CSS code is in accordance with brief
 - Include external websites in links
 - Add icon for tab
 - Any additional link animations 

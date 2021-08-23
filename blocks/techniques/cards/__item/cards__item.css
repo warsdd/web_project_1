@@ -1,4 +1,4 @@
-@import url(./cards__item_content.css);
+@import url(./__item_content/cards__item_content.css);
 
 .cards__item {
   margin: 0;

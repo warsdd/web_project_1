@@ -9,9 +9,9 @@
   right: 48px;
   text-decoration: none;
   z-index: 1;
+  transition: 0.3s linear;
 }
 
 .feynman__link:hover {
   opacity: 50%;
-  transition: 0.3s linear;
 }

@@ -3,12 +3,7 @@
 
 
 ## Info 
-Website including examples of learning techniques by experts on learning and productivity, such as:
-- [**Josh Kaufman**](https://joshkaufman.net/)
-- [**Salman Khan**](https://en.wikipedia.org/wiki/Sal_Khan) 
-- [**Richard Feynman**](https://en.wikipedia.org/wiki/Richard_Feynman)
-- [**Barbara Oakley**](https://barbaraoakley.com/)
-
+Website displaying examples of learning techniques by experts on learning and productivity, with videos and links to educational content.
 
 ## Technologies
 - HTML
@@ -21,10 +16,12 @@ Website including examples of learning techniques by experts on learning and pro
 - Positioning
 - Embedding content
 
-
-## Plans for Refining Project
-- See if any feedback on parameters for Khan book image
+## Plans for Refining Projecs
 - Implement any corrections
 - Include external websites in links
 - Add icon for tab
-- Any additional link animations 
+- Any additional link animations
+- Adding different fonts
+- Adding educational videos
+- Checking the code for cross-compatibility and adding all the necessary vendor prefixes
+- Designing a form that allows users to submit a comment

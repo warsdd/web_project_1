@@ -1,7 +1,4 @@
-@import url(./two-columns/two-columns.css);
 
-
-/*start of description block */
 .description {
   display: flex;
   flex-direction: column;

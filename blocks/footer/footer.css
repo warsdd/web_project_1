@@ -8,8 +8,6 @@
 @import url(../footer/__list/footer__list.css);
 @import url(../footer/__social-icons/footer__social-icons.css);
 
-
-/* here is the footer block, which includes links and logos */
 .footer {
   display: flex;
   background-color: #1F1F1F;

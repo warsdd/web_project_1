@@ -17,11 +17,8 @@ Website displaying examples of learning techniques by experts on learning and pr
 - Embedding content
 
 ## Plans for Refining Projecs
-- Implement any corrections
-- Include external websites in links
-- Add icon for tab
+- Use smooth scrolling for anchor links
 - Any additional link animations
-- Adding different fonts
-- Adding educational videos
+- Adding additional image animations
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
 - Designing a form that allows users to submit a comment

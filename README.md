@@ -17,7 +17,6 @@ Website displaying examples of learning techniques by experts on learning and pr
 - Embedding content
 
 ## Plans for Refining Projecs
-- Use smooth scrolling for anchor links
 - Any additional link animations
 - Adding additional image animations
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes

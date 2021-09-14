@@ -16,7 +16,7 @@ Website displaying examples of learning techniques by experts on learning and pr
 - Positioning
 - Embedding content
 
-## Plans for Refining Projecs
+## Plans for Refining Projects
 - Any additional link animations
 - Adding additional image animations
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes

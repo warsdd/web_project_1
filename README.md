@@ -16,6 +16,7 @@ The first project in the ***Practicum by Yandex*** Web Development course.
 - Embedding content
 
 ## Next Steps
+- Correct Github page issues with embedded content etc
 - Any additional link animations
 - Adding additional image animations
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes

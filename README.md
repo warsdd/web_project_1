@@ -1,23 +1,21 @@
-# web_project_1
-## The first project in the _Practicum by Yandex_ Web Development course
+# Project 1: Learning How To Learn
 
+### Overview
 
-## Info 
-Website displaying examples of learning techniques by experts on learning and productivity, with videos and links to educational content.
+Landing page displaying examples of learning techniques by experts on learning and productivity, with videos and links to educational content.
 
-## Technologies
-- HTML
-- CSS
+The first project in the ***Practicum by Yandex*** Web Development course.
 
-## Techniques
+## Technologies and Techniques
+- HTML5
+- CSS3
 - BEM file structure
 - Animations
 - Flexbox
 - Positioning
 - Embedding content
 
-## Plans for Refining Projecs
-- Use smooth scrolling for anchor links
+## Next Steps
 - Any additional link animations
 - Adding additional image animations
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes

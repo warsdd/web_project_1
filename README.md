@@ -6,8 +6,7 @@ Landing page displaying examples of learning techniques by experts on learning a
 
 The first project in the ***Practicum by Yandex*** Web Development course.
 
-See here:
-https://warsdd.github.io/web_project_1/ 
+[See the live Github page here](https://warsdd.github.io/web_project_1/)
 
 ## Technologies and Techniques
 - HTML5

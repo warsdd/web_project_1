@@ -4,7 +4,7 @@
 
 Landing page displaying examples of learning techniques by experts on learning and productivity, with videos and links to educational content.
 
-The first project in the ***Practicum by Yandex*** Web Development course.
+The first project in the [***Practicum by Yandex***](https://practicum.yandex.com/) Web Development course.
 
 [See the live Github page here](https://warsdd.github.io/web_project_1/)
 

@@ -22,3 +22,4 @@ The first project in the [***Practicum by Yandex***](https://practicum.yandex.co
 - Adding additional image animations
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
 - Designing a form that allows users to submit a comment
+- Adding responsive layout
